@@ -8,7 +8,7 @@ import javax.swing.text.*;
 import java.awt.*;
 
 public class Build_Window extends JFrame {
-    private static final int windowWidth = 450, windowHeight = 400;
+    private static final int windowWidth = 300, windowHeight = 300;
 
     private static final  String WARNING = "Please make sure you have a working internet connection.\nA terminal window will appear; when prompted, please enter your root password. \nInstallation may take a few minutes to complete.";
 
@@ -54,7 +54,7 @@ public class Build_Window extends JFrame {
         description.setText(GetToolDescr.retrieve(this.getCustomTitle()));
         StyledDocument doc = description.getStyledDocument();
         SimpleAttributeSet center = new SimpleAttributeSet();
-        StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
+        StyleConstants.setAlignment(center, StyleConstants.ALIGN_LEFT);
         doc.setParagraphAttributes(0, doc.getLength(), center, false);
         description.setMargin(new Insets(0, 20, 0,20));
 
@@ -63,7 +63,7 @@ public class Build_Window extends JFrame {
         JTextPane warning = new JTextPane();
         StyledDocument doc2 = warning.getStyledDocument();
         SimpleAttributeSet center2 = new SimpleAttributeSet();
-        StyleConstants.setAlignment(center2, StyleConstants.ALIGN_CENTER);
+        StyleConstants.setAlignment(center2, StyleConstants.ALIGN_LEFT);
         Style style = warning.addStyle("I'm a Style", null);
         StyleConstants.setForeground(style, GraphicScheme.RED);
         doc2.setParagraphAttributes(0, doc.getLength(), center, false);

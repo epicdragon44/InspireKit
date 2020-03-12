@@ -52,37 +52,5 @@ public class GraphicScheme {
     private static void setFont() {
         UIManager.put("text", FOREGROUND);
         UIManager.put("info", WHITE);
-
-        UIManager.put("Button.font", BOLDINTERFACE);
-        UIManager.put("ToggleButton.font", BOLDINTERFACE);
-        UIManager.put("RadioButton.font", BOLDINTERFACE);
-        UIManager.put("CheckBox.font", BOLDINTERFACE);
-        UIManager.put("ColorChooser.font", BOLDINTERFACE);
-        UIManager.put("ComboBox.font", BOLDINTERFACE);
-        UIManager.put("Label.font", BOLDINTERFACE);
-        UIManager.put("List.font", BOLDINTERFACE);
-        UIManager.put("MenuBar.font", BOLDINTERFACE);
-        UIManager.put("MenuItem.font", BOLDINTERFACE);
-        UIManager.put("RadioButtonMenuItem.font", BOLDINTERFACE);
-        UIManager.put("CheckBoxMenuItem.font", BOLDINTERFACE);
-        UIManager.put("Menu.font", BOLDINTERFACE);
-        UIManager.put("PopupMenu.font", BOLDINTERFACE);
-        UIManager.put("OptionPane.font", BOLDINTERFACE);
-        UIManager.put("Panel.font", BOLDINTERFACE);
-        UIManager.put("ProgressBar.font", BOLDINTERFACE);
-        UIManager.put("ScrollPane.font", BOLDINTERFACE);
-        UIManager.put("Viewport.font", BOLDINTERFACE);
-        UIManager.put("TabbedPane.font", BOLDINTERFACE);
-        UIManager.put("Table.font", BOLDINTERFACE);
-        UIManager.put("TableHeader.font", BOLDINTERFACE);
-        UIManager.put("TextField.font", BOLDINTERFACE);
-        UIManager.put("PasswordField.font", BOLDINTERFACE);
-        UIManager.put("TextArea.font", INTERFACE);
-        UIManager.put("TextPane.font", BOLDINTERFACE);
-        UIManager.put("EditorPane.font", BOLDINTERFACE);
-        UIManager.put("TitledBorder.font", BOLDINTERFACE);
-        UIManager.put("ToolBar.font", BOLDINTERFACE);
-        UIManager.put("ToolTip.font", BOLDINTERFACE);
-        UIManager.put("Tree.font", BOLDINTERFACE);
     }
 }
