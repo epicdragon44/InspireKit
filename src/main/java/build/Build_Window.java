@@ -36,6 +36,7 @@ public class Build_Window extends JFrame {
 
         getContentPane().setBackground(Color.WHITE);
         setVisible(true);
+        setResizable(false);
     }
 
     public String getCustomTitle() {
