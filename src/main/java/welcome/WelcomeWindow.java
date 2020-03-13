@@ -23,7 +23,7 @@ public class WelcomeWindow extends JFrame {
     public WelcomeWindow() {
         super(windowName);
         setSize(new Dimension(windowWidth,windowHeight));
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         setLayout(null);
         getContentPane().setBackground(GraphicScheme.BACKGROUND);
 
