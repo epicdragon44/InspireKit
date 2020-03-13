@@ -1,0 +1,20 @@
+Format: 1.8
+Date: Wed, 11 Mar 2020 22:36:45 -0500
+Source: InspireKit
+Binary: InspireKit
+Architecture: all
+Version: 1.0-SNAPSHOT
+Distribution: unknown
+Urgency: low
+Maintainer: Daniel Wei <inspireandpotential@gmail.com>
+Changed-By: Daniel Wei <inspireandpotential@gmail.com>
+Description:
+ InspireKit - Install common development tools at the click of a button
+Changes:
+ InspireKit (1.0-SNAPSHOT) unknown; urgency=low
+Checksums-Sha1:
+ ff299354032f684a956a89669d1f51cbb7595d3d 15652 InspireKit_1.0~SNAPSHOT_all.deb
+Checksums-Sha256:
+ 3cd1e947c7d87e72e0f110429c7d1e2ececf63de2ced7a989d35899b5c49f194 15652 InspireKit_1.0~SNAPSHOT_all.deb
+Files:
+ 4573bd39d4e53d7e3093f38fe1642308 15652 misc low InspireKit_1.0~SNAPSHOT_all.deb
